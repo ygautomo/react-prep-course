@@ -16,7 +16,7 @@ class App extends Component {
           component will display your biodata, including your name, email and occupation ('refactory student')
         </p> 
         {/* Edit here */}
-        <Personal>
+        <Personal name="hafiz" email="hafizpratama@gmail.com">
         </Personal>
         {/* Don't edit anything below this line */}
       </div>
