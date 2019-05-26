@@ -6,10 +6,18 @@ class Personal extends Component {
     	super();
     	this.name = name;
     	this.email = email;
-    	this.occupatio = occupation;
+    	this.occupation = occupation;
     }
     render() {
-
+	    return (
+	      <div className="Personal">
+	        <ul>
+	          <li>Name = {this.props.name}</li>
+	          <li>Email = {this.props.email}</li>
+	          <li>Occupation = {this.props.occupation}</li>
+	        </ul>
+	      </div>
+	    );
     }
 
 }
