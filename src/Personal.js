@@ -9,7 +9,7 @@ class Personal extends Component {
 		this.occupation = occupation;
 	}
 	render() {
-		return (
+		/* return (
       <div className="shopping-list">
         <h1>Shopping List for {this.props.name}</h1>
         <ul>
@@ -18,16 +18,13 @@ class Personal extends Component {
           <li>Oculus</li>
         </ul>
       </div>
-		);
-		/*
+		); */
+		
 		return (
 			<div className="personal-data">
-				Hello World ! <br>
-				My Name is {this.props.name}<br>
-				My Email is {this.props.email}<br>
-				My Occupation is {this.props.occupation}
+				Hello World !<br>My Name is {this.props.name} My Email is {this.props.email} My Occupation is {this.props.occupation}
 			</div>
-		); */
+		);
 	}
 
 }
