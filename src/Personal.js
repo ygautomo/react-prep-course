@@ -22,11 +22,12 @@ class Personal extends Component {
 		
 		return (
 			<div className="personal-data">
-				Hello World !<br>My Name is {this.props.name} My Email is {this.props.email} My Occupation is {this.props.occupation}
+				Bebek Bakar Madu
 			</div>
 		);
 	}
 
 }
 
+// Hello World !<br>My Name is {this.props.name} My Email is {this.props.email} My Occupation is {this.props.occupation}
 export default Personal;
