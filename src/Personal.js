@@ -9,17 +9,6 @@ class Personal extends Component {
 		this.occupation = occupation;
 	}
 	render() {
-		/* return (
-      <div className="shopping-list">
-        <h1>Shopping List for {this.props.name}</h1>
-        <ul>
-          <li>Instagram</li>
-          <li>WhatsApp</li>
-          <li>Oculus</li>
-        </ul>
-      </div>
-		); */
-		
 		return (
 			<p className="personal-data">
 				Hello World !<br />
@@ -32,5 +21,4 @@ class Personal extends Component {
 
 }
 
-// Hello World !<br>My Name is {this.props.name} My Email is {this.props.email} My Occupation is {this.props.occupation}
 export default Personal;
