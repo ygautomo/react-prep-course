@@ -10,13 +10,12 @@ class Personal extends Component {
     }
     render() {
 	    return (
-	      <div className="Personal">
-	        <ul>
-	          <li>Name = {this.props.name}</li>
-	          <li>Email = {this.props.email}</li>
-	          <li>Occupation = {this.props.occupation}</li>
-	        </ul>
-	      </div>
+	    	<p className="Personal">
+	      	Hello World !<br>
+	        My Name is {this.props.name}<br>
+	        My Email is {this.props.email}<br>
+	        My Occupation is {this.props.occupation}<br>
+	      	</p>
 	    );
     }
 
