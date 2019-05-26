@@ -10,12 +10,12 @@ class Personal extends Component {
 	}
 	render() {
 		return (
-			<p className="Personal">
+			<div className="Personal">
 				Hello World <br>
 				My Name is {this.props.name}<br>
 				My Email is {this.props.email}<br>
 				My Occupation is {this.props.occupation}
-			<p/>
+			</div>
 		);
 	}
 
