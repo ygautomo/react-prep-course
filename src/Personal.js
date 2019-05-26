@@ -10,13 +10,24 @@ class Personal extends Component {
 	}
 	render() {
 		return (
+      <div className="shopping-list">
+        <h1>Shopping List for {this.props.name}</h1>
+        <ul>
+          <li>Instagram</li>
+          <li>WhatsApp</li>
+          <li>Oculus</li>
+        </ul>
+      </div>
+		);
+		/*
+		return (
 			<div className="personal-data">
 				Hello World ! <br>
 				My Name is {this.props.name}<br>
 				My Email is {this.props.email}<br>
 				My Occupation is {this.props.occupation}
 			</div>
-		);
+		); */
 	}
 
 }
