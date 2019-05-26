@@ -10,8 +10,8 @@ class Personal extends Component {
 	}
 	render() {
 		return (
-			<div className="Personal">
-				Hello World <br>
+			<div className="personal-data">
+				Hello World ! <br>
 				My Name is {this.props.name}<br>
 				My Email is {this.props.email}<br>
 				My Occupation is {this.props.occupation}
