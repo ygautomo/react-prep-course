@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // Import this after you have fixed the file Personal.js
-// import Personal from './Personal';
+import Personal from './Personal';
 import logo from './logo.svg';
 import './App.css';
 
