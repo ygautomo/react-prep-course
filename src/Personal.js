@@ -22,7 +22,7 @@ class Personal extends Component {
 		
 		return (
 			<div className="personal-data">
-				Bebek Bakar Madu
+				Hello World !<br />My Name is {this.props.name} My Email is {this.props.email} My Occupation is {this.props.occupation}
 			</div>
 		);
 	}
